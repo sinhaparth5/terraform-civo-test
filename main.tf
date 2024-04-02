@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "civo" {
- token = "AAXNsRk1WChEPQIJYmQ3L99l3OGfrjsq5iAYDFX6i1UWhMSRbc"
+ token = "secretkey"
 }
 
 resource "civo_instance" "test_instance" {
